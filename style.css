@@ -1330,7 +1330,7 @@ footer .end span {
     section .main .men_text h1 {
         font-size: 2rem;
         margin: auto;
-        top: 6rem;
+        top: -15rem;
     }
 
     section .main .men_text h1 span {
@@ -1342,7 +1342,7 @@ footer .end span {
     section .main .main_image img {
         width: 250px;
         margin: auto;
-        top: 6rem;
+        top: -10rem;
     }
 
     section p {
@@ -1351,14 +1351,15 @@ footer .end span {
         text-align: justify;
         position: relative;
         margin: auto;
-        top: 6.5rem;
+        top: -14rem;
         line-height: 1rem;
     }
 
     section .main_btn {
         width: 6rem;
         padding: 5px 10px;
-        top: 7rem;
+        margin-bottom: 0;
+        top: -12rem;
     }
 
     section .main_btn a {
@@ -1373,8 +1374,14 @@ footer .end span {
         width: 100%;
     }
 
+    .about .about_main{
+        margin: 0rem auto;
+    }
+
     .about .about_main .image img {
         width: 320px;
+        margin: auto;
+        margin-left: 0px;
     }
 
     .about .about_main .about_text {
@@ -1384,6 +1391,7 @@ footer .end span {
     .about .about_main .about_text h1 {
         font-size: 2rem;
         margin: auto;
+        top: -7rem;
     }
 
     .about .about_main .about_text h1 span {
@@ -1392,6 +1400,7 @@ footer .end span {
 
     .about .about_main .about_text h3 {
         font-size: 1.5rem;
+        margin: -100px 0 20px 0;
     }
 
     .about .about_main .about_text p {
@@ -1408,6 +1417,10 @@ footer .end span {
     .about .about_main .about_text a {
         font-size: 11px;
         top: 10px;
+    }
+
+    .menu{
+        margin: -40px 0 0 0;
     }
 
     .menu h1 {
@@ -1427,7 +1440,7 @@ footer .end span {
         width: 100%;
         margin: auto;
         margin-top: 60px;
-        margin-bottom: 950px;
+        margin-bottom: 730px;
     }
 
     .gallary h1 {
@@ -1443,6 +1456,8 @@ footer .end span {
         grid-template-columns: 1fr;
         grid-gap: 20px;
         text-align: center;
+        justify-content: center;
+
     }
 
     .gallary .gallary_image_box .gallary_image {
@@ -1455,7 +1470,7 @@ footer .end span {
     }
 
     .review {
-        margin-bottom: 1770px;
+        margin-bottom: 1470px;
     }
 
     .review h1 {
@@ -1468,11 +1483,13 @@ footer .end span {
 
     .review .review_box {
         margin: auto;
+        justify-content: center;
         grid-template-columns: 1fr;
     }
 
     .order {
-        margin-bottom: 680px;
+        margin-bottom: 380px;
+        background-size: 100%;
     }
 
     .order h1 {
@@ -1516,5 +1533,4 @@ footer .end span {
     footer .footer_main {
         grid-template-columns: 1fr 1fr;
     }
-
 }
